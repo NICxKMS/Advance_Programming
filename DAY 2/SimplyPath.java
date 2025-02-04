@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class three {
+public class SimplyPath {
     public String simplifyPath(String path) {
         Stack<String> stack = new Stack<>();
         String[] parts = path.split("/");
@@ -26,7 +26,7 @@ public class three {
     }
 
     public static void main(String[] args) {
-        three solution = new three();
+        SimplyPath solution = new SimplyPath();
         String path = "/home//foo/../bar/";
         String result = solution.simplifyPath(path);
         System.out.println("Simplified Path: " + result);

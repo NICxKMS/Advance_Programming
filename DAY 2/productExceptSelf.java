@@ -1,5 +1,5 @@
-public class five {
-    public int[] productExceptSelf(int[] nums) {
+public class productExceptSelf {
+    public int[] calculateProductExceptSelf(int[] nums) {
         int n = nums.length;
         int[] ans = new int[n];
 
@@ -18,9 +18,9 @@ public class five {
     }
 
     public static void main(String[] args) {
-        five solution = new five();
+        productExceptSelf solution = new productExceptSelf();
         int[] nums = {1, 2, 3, 4};
-        int[] result = solution.productExceptSelf(nums);
+        int[] result = solution.calculateProductExceptSelf(nums);
 
         for (int val : result) {
             System.out.print(val + " ");

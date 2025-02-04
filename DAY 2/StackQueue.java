@@ -1,10 +1,10 @@
 import java.util.Stack;
 
-public class four {
+public class StackQueue {
     private Stack<Integer> stack1;
     private Stack<Integer> stack2;
 
-    public four() {
+    public StackQueue() {
         stack1 = new Stack<>();
         stack2 = new Stack<>();
     }
@@ -36,7 +36,7 @@ public class four {
     }
 
     public static void main(String[] args) {
-        four queue = new four();
+        StackQueue queue = new StackQueue();
         queue.push(1);
         queue.push(2);
         queue.push(3);
